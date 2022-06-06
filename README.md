@@ -7,6 +7,8 @@ Test URL: https://udemyapiwebsite.azurewebsites.net/
 - /add
 - /patch_new_price
 
+[![Build and deploy Python app to Azure Web App](https://github.com/pturegano/UdemyAPIWebsite/actions/workflows/azure-webapps-python.yml/badge.svg)](https://github.com/pturegano/UdemyAPIWebsite/actions/workflows/azure-webapps-python.yml)
+
 
 # Source code
 
