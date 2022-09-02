@@ -115,5 +115,5 @@ def patch_new_price(cafe_id):
         return jsonify(error={"Not Found": "Sorry, the cafe with that id was not found."}), 404
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
 
