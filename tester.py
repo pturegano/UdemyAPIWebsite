@@ -5,7 +5,7 @@ import requests
 def test_post():
     url = 'http://127.0.0.1:5000/add'
     myCafe = {
-        'name': 'Cafeteria Iban',
+        'name': 'Cafeteria Ifban',
         'map_url':'https://lh3.googleusercontent.com/p/AF1QipPBAt6bYna7pv5c7e_PhCDPMKPb6oFf6kMT2VQ1=s0',
         'img_url':'https://lh3.googleusercontent.com/p/AF1QipPBAt6bYna7pv5c7e_PhCDPMKPb6oFf6kMT2VQ1=s0',
         'loc':'Les Coves',
@@ -32,4 +32,5 @@ def test_patch():
     print(response.text)
 
 test_patch()
+test_post()
 
